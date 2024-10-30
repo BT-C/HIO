@@ -1,8 +1,15 @@
-# HIO (Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization) <a href='https://arxiv.org/pdf/2405.15356'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<div align="center">
 
-**Center for Future Media, University of Electronic Science and Technology of China**
+# HIO
+**Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization**
 
-Beitao Chen, Xinyu Lyu, Lianli Gao, Jingkuan Song, Heng Tao Shen
+<a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Demo-Page-purple'></a>
+<a href='https://arxiv.org/abs/2312.00849'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+![License](https://img.shields.io/badge/License-BSD-blue.svg)
+</div>
+
+
 
 <img src="./assets/framework.png">
 
@@ -24,6 +31,15 @@ pip install -e .
 ```
 
 
+## Licenses
+
+
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
+[![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
+
+**Usage and License Notices**: The data, code, and checkpoint are intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna, and Chat GPT. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.
+
+
 ## Acknowledgement
    - [LLaVA-1.5](https://github.com/haotian-liu/LLaVA). The LLaVA-v1.5 part of HIO is based on the official LLaVA-1.5 implementation, which is a great open-source work on LVLM.
    - [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). The MiniGPT-4 part of HIO is based on the official MiniGPT-4 implementation. 
@@ -42,10 +58,3 @@ If you're using HIO in your research or applications, please cite using this Bib
   year={2024}
 }
 ```
-
-## Contact us
-If you have any questions, comments or suggestions, please do not hesitate to contact us.
-
-## License
-[Apache License 2.0](LICENSE.txt)
-
