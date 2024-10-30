@@ -1,21 +1,28 @@
 <div align="center">
+</div>
 
-# HIO
-**Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization**
+# Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization (HIO)
 
 <a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Demo-Page-purple'></a>
 <a href='https://arxiv.org/pdf/2405.15356'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 ![License](https://img.shields.io/badge/License-BSD-blue.svg)
-</div>
 
 
+This is the official repository of the following paper and a project that study positional perception in LVLMs.
+> **[Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization](https://arxiv.org/pdf/2405.15356)**<br>
+> NeurIPS 2024<br>
+> Beitao Chen, Xinyu Lyu†, Lianli Gao†, Jingkuan Song, Heng Tao Shen<br>
+
+
+# Introduction
+We conducted the theoretical analysis to promote the effectiveness of contrast decoding. Building on this insight, we introduce a novel optimization strategy named Hallucination-Induced Optimization (HIO). This strategy seeks to amplify the contrast between hallucinatory and targeted tokens relying on a fine-tuned theoretical preference model (i.e., Contrary Bradley-Terry Model), thereby facilitating efficient contrast decoding to alleviate hallucinations in LVLMs. Extensive experimental research demonstrates that our HIO strategy can effectively reduce hallucinations in LVLMs, outperforming state-of-the-art methods across various benchmarks.
+
+Visit our 🏠 [project page](https://github.com/BT-C/HIO) and 📃 [paper](https://arxiv.org/pdf/2405.15356) to explore more!
 
 <img src="./assets/framework.png">
 
-# Abstract
-Although Large Visual Language Models (LVLMs) have demonstrated exceptional abilities in understanding multimodal data, they invariably suffer from hallucinations, leading to a disconnect between the generated text and the corresponding images. Almost all current visual contrastive decoding methods attempt to mitigate these hallucinations by introducing visual uncertainty information that appropriately widens the contrastive logits gap between hallucinatory and targeted ones. However, due to uncontrollable nature of the global visual uncertainty, they struggle to precisely induce the hallucinatory tokens, which severely limits their effectiveness in mitigating hallucinations and may even lead to the generation of undesired hallucinations. To tackle this issue, we conducted the theoretical analysis to promote the effectiveness of contrast decoding. Building on this insight, we introduce a novel optimization strategy named Hallucination-Induced Optimization (HIO). This strategy seeks to amplify the contrast between hallucinatory and targeted tokens relying on a fine-tuned theoretical preference model (i.e., Contrary Bradley-Terry Model), thereby facilitating efficient contrast decoding to alleviate hallucinations in LVLMs. Extensive experimental research demonstrates that our HIO strategy can effectively reduce hallucinations in LVLMs, outperforming state-of-the-art methods across various benchmarks.
-Visit our 🏠 [project page](https://github.com/BT-C/HIO) and 📃 [paper](https://arxiv.org/pdf/2405.15356) to explore more!
+
 
 ## 🎈News
 
