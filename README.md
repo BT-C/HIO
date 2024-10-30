@@ -5,7 +5,7 @@
 
 <a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='https://github.com/BT-C/HIO'><img src='https://img.shields.io/badge/Demo-Page-purple'></a>
-<a href='https://arxiv.org/abs/2312.00849'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<a href='https://arxiv.org/pdf/2405.15356'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 ![License](https://img.shields.io/badge/License-BSD-blue.svg)
 </div>
 
@@ -15,6 +15,15 @@
 
 # Abstract
 Although Large Visual Language Models (LVLMs) have demonstrated exceptional abilities in understanding multimodal data, they invariably suffer from hallucinations, leading to a disconnect between the generated text and the corresponding images. Almost all current visual contrastive decoding methods attempt to mitigate these hallucinations by introducing visual uncertainty information that appropriately widens the contrastive logits gap between hallucinatory and targeted ones. However, due to uncontrollable nature of the global visual uncertainty, they struggle to precisely induce the hallucinatory tokens, which severely limits their effectiveness in mitigating hallucinations and may even lead to the generation of undesired hallucinations. To tackle this issue, we conducted the theoretical analysis to promote the effectiveness of contrast decoding. Building on this insight, we introduce a novel optimization strategy named Hallucination-Induced Optimization (HIO). This strategy seeks to amplify the contrast between hallucinatory and targeted tokens relying on a fine-tuned theoretical preference model (i.e., Contrary Bradley-Terry Model), thereby facilitating efficient contrast decoding to alleviate hallucinations in LVLMs. Extensive experimental research demonstrates that our HIO strategy can effectively reduce hallucinations in LVLMs, outperforming state-of-the-art methods across various benchmarks.
+Visit our 🏠 [project page](https://github.com/BT-C/HIO) and 📃 [paper](https://arxiv.org/pdf/2405.15356) to explore more!
+
+## 🎈News
+
+#### 📌 Pinned
+
+* [2024.09.29] 📃 Our HIO is accepted by [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/95118)!
+* [2024.5.30] 📃 Our paper is accesible at [arxiv](https://arxiv.org/pdf/2405.15356) now. 
+
 
 ## Install
 1. Clone this repository and navigate to HIO folder
