@@ -12,7 +12,7 @@
 This is the official repository of the following paper and a project that study positional perception in LVLMs.
 > **[Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization](https://arxiv.org/pdf/2405.15356)**<br>
 > NeurIPS 2024<br>
-> Beitao Chen, Xinyu Lyu†, Lianli Gao†, Jingkuan Song, Heng Tao Shen<br>
+>  Xinyu Lyu†, Beitao Chen†, Lianli Gao, Jingkuan Song, Heng Tao Shen<br>
 
 
 # Introduction
