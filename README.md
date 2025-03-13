@@ -69,7 +69,7 @@ If you're using HIO in your research or applications, please cite using this Bib
 ```bibtex
 @article{chen2024alleviating,
   title={Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization},
-  author={Chen, Beitao and Lyu, Xinyu and Gao, Lianli and Song, Jingkuan and Shen, Heng Tao},
+  author={Lyu, Xinyu and Chen, Beitao and  Gao, Lianli and Song, Jingkuan and Shen, Heng Tao},
   journal={arXiv preprint arXiv:2405.15356},
   year={2024}
 }
